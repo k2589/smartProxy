@@ -1,7 +1,7 @@
 
 Перем ТЗ; // ТаблицаЗначений с адресами и портами для ИнтернетПрокси
 
-Функция ОбращениеАПИ(country = "NL") Экспорт
+Функция ОбращениеАПИ(country = "US") Экспорт
 	
 	ИмяСервера = "https://www.proxy-list.download";
 	URL = "api/v1/get?type=https&anon=transparent&country=" + country;
